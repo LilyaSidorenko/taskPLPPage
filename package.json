@@ -1,0 +1,63 @@
+{
+  "name": "gorilla-fed-uikit",
+  "description": "Gorilla Group FED UIKit.",
+  "homepage": "http://fed.gemshelp.com",
+  "version": "1.0.0",
+  "author": {
+    "name": "Gorilla Group",
+    "email": "fed@gorillagroup.com",
+    "url": "http://www.gorillagroup.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://stash.gorillagroup.com/projects/FT/repos/gorilla-fed-uikit/"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "scripts": {
+    "run": "grunt assemble"
+  },
+  "devDependencies": {
+    "assemble": "^0.4.42",
+    "assemble-contrib-permalinks": "*",
+    "assemble-contrib-sitemap": "*",
+    "autoprefixer": "^6.1.2",
+    "ember-cli-components": "^0.2.0",
+    "grunt": "^0.4.5",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-imagemin": "^0.7.1",
+    "grunt-contrib-jshint": "~0.6.5",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-newer": "~0.7.0",
+    "grunt-notify": "^0.4.1",
+    "grunt-postcss": "^0.7.1",
+    "grunt-sass": "^2.0.0",
+    "grunt-spritesmith": "^6.4.0",
+    "jshint-stylish": "^0.4.0",
+    "load-grunt-tasks": "^0.6.0",
+    "time-grunt": "^1.0.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/assemble/assemble-test/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "assemble",
+    "templates",
+    "handlebars",
+    "site generator",
+    "site builder",
+    "grunt"
+  ],
+  "dependencies": {
+    "handlebars": "^4.0.10"
+  }
+}

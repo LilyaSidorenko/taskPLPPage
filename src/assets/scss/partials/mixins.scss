@@ -1,0 +1,92 @@
+//
+//  Mixins
+//
+
+@mixin media-breakpoint($type) {
+    $breakpoints: (
+        'screen-wide':'(min-width: 1200px)',
+        'screen-normal':'(min-width: 992px) and (max-width: 1199px)',
+        'tablet': '(max-width: 991px)',
+        'phone': '(max-width: 630px)'
+    );
+
+    @media #{map-get($breakpoints, $type)} {
+        @content;
+
+
+    }
+}
+
+@mixin placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &:-ms-input-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; }
+}
+
+@mixin after() {
+    content: '';
+    position: absolute;
+    display: block;
+}
+
+@mixin clearfix {
+    &:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+@mixin button {
+    position: relative;
+
+    display: inline-block;
+
+
+
+    background: transparent;
+
+    font-family: $font-default;
+    text-align: center;
+    text-decoration: none;
+
+    line-height: 1;
+    color: $sky_medium;
+    cursor: pointer;
+
+    overflow: hidden;
+    vertical-align: middle;
+
+    @extend %default-border-radius;
+}
+
+
+
+@each $font-face in RobotoBold, RobotoRegular {
+    @font-face {
+        font-family: $font-face; font-style: normal; font-weight: normal;
+        src: url('../fonts/#{$font-face}.eot'),
+        url('../fonts/#{$font-face}.woff') format('woff'),
+        url('../fonts/#{$font-face}.ttf')  format('truetype');
+    }
+}
+
+@function z($layer){
+    $layers: (
+            'base': 1,
+            'fixed': 30,
+            'dropdown': 60,
+            'popup': 90,
+            'hidden': -1
+    );
+
+    $z-index: map-get($layers, $layer);
+    @return $z-index;
+}
+@mixin x-appearance ($value) {
+    -webkit-appearance: $value;
+    -moz-appearance: $value;
+    appearance: $value;
+}

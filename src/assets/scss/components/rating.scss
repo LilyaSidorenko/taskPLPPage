@@ -1,0 +1,35 @@
+.rating-view {
+    position: relative;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    font-size: $font-size;
+    line-height: 1;
+
+    &__bg {
+        position: relative;
+
+        display: inline-block;
+        vertical-align: middle;
+
+        height: 15px;
+        width: 101px;
+
+        margin-right: 10px;
+
+        background: url('../images/rating-view__bg.png') no-repeat;
+    }
+    &__count {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        height: 15px;
+        width: 0;
+
+        background: url('../images/rating-view__count.png') no-repeat;
+
+        overflow: hidden;
+    }
+}

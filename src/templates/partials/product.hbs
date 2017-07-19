@@ -1,0 +1,40 @@
+<script id="product-template" type="text/x-handlebars-template">
+    {{#each site.catalog}}
+
+        <div class="product js-product" data-attr="{{attribute}}"
+             data-price="{{#if this.price.special}}{{price.special}}{{else}}{{price.regular}}{{/if}}">
+            {{#if this.roundel}}
+                <div class="roundel {{roundel.type}}">{{roundel.name}}</div>
+            {{/if}}
+            <a href="#" class="product__link">
+                <img src="{{img}}"
+                        alt="{{name}}" class="product__image"/>
+            </a>
+
+            <p class="product__title">{{name}}</p>
+
+            <div class="rating-view">
+                <div class="rating-view__bg">
+                    <div class="rating-view__count js-rating" data-rating="{{rating}}"></div>
+                </div>
+            </div>
+            <div class="product__price js-price">
+                {{#if this.price.special}}
+                    <span class="regular line-through">{{price.regular}}$</span>
+                    <span class="special">{{price.special}}$</span>
+
+                {{else}}
+                    <span class="regular">{{price.regular}}$</span>
+                {{/if}}
+            </div>
+
+            <div class="product__variant">
+                {{#each colors}}
+                    <a title="{{name}}" class="product__color" style="background: {{code}}"></a>
+                {{/each}}
+            </div>
+            <div class="product__description">{{description}}</div>
+        </div>
+    {{/each}}
+
+</script>

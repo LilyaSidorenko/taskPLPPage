@@ -1,0 +1,178 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$ating-view-bg-name: 'ating-view__bg';
+$ating-view-bg-x: 0px;
+$ating-view-bg-y: 0px;
+$ating-view-bg-offset-x: 0px;
+$ating-view-bg-offset-y: 0px;
+$ating-view-bg-width: 101px;
+$ating-view-bg-height: 15px;
+$ating-view-bg-total-width: 101px;
+$ating-view-bg-total-height: 76px;
+$ating-view-bg-image: '../images/spritesheet.png';
+$ating-view-bg: (0px, 0px, 0px, 0px, 101px, 15px, 101px, 76px, '../images/spritesheet.png', 'ating-view__bg', );
+$ating-view-count-name: 'ating-view__count';
+$ating-view-count-x: 0px;
+$ating-view-count-y: 15px;
+$ating-view-count-offset-x: 0px;
+$ating-view-count-offset-y: -15px;
+$ating-view-count-width: 101px;
+$ating-view-count-height: 15px;
+$ating-view-count-total-width: 101px;
+$ating-view-count-total-height: 76px;
+$ating-view-count-image: '../images/spritesheet.png';
+$ating-view-count: (0px, 15px, 0px, -15px, 101px, 15px, 101px, 76px, '../images/spritesheet.png', 'ating-view__count', );
+$i-arrow-name: 'i_arrow';
+$i-arrow-x: 80px;
+$i-arrow-y: 30px;
+$i-arrow-offset-x: -80px;
+$i-arrow-offset-y: -30px;
+$i-arrow-width: 16px;
+$i-arrow-height: 16px;
+$i-arrow-total-width: 101px;
+$i-arrow-total-height: 76px;
+$i-arrow-image: '../images/spritesheet.png';
+$i-arrow: (80px, 30px, -80px, -30px, 16px, 16px, 101px, 76px, '../images/spritesheet.png', 'i_arrow', );
+$i-next-disabled-name: 'i_next--disabled';
+$i-next-disabled-x: 0px;
+$i-next-disabled-y: 50px;
+$i-next-disabled-offset-x: 0px;
+$i-next-disabled-offset-y: -50px;
+$i-next-disabled-width: 14px;
+$i-next-disabled-height: 26px;
+$i-next-disabled-total-width: 101px;
+$i-next-disabled-total-height: 76px;
+$i-next-disabled-image: '../images/spritesheet.png';
+$i-next-disabled: (0px, 50px, 0px, -50px, 14px, 26px, 101px, 76px, '../images/spritesheet.png', 'i_next--disabled', );
+$i-next-name: 'i_next';
+$i-next-x: 14px;
+$i-next-y: 50px;
+$i-next-offset-x: -14px;
+$i-next-offset-y: -50px;
+$i-next-width: 14px;
+$i-next-height: 26px;
+$i-next-total-width: 101px;
+$i-next-total-height: 76px;
+$i-next-image: '../images/spritesheet.png';
+$i-next: (14px, 50px, -14px, -50px, 14px, 26px, 101px, 76px, '../images/spritesheet.png', 'i_next', );
+$i-toolbar-grid-selected-name: 'i_toolbar-grid--selected';
+$i-toolbar-grid-selected-x: 0px;
+$i-toolbar-grid-selected-y: 30px;
+$i-toolbar-grid-selected-offset-x: 0px;
+$i-toolbar-grid-selected-offset-y: -30px;
+$i-toolbar-grid-selected-width: 20px;
+$i-toolbar-grid-selected-height: 20px;
+$i-toolbar-grid-selected-total-width: 101px;
+$i-toolbar-grid-selected-total-height: 76px;
+$i-toolbar-grid-selected-image: '../images/spritesheet.png';
+$i-toolbar-grid-selected: (0px, 30px, 0px, -30px, 20px, 20px, 101px, 76px, '../images/spritesheet.png', 'i_toolbar-grid--selected', );
+$i-toolbar-grid-name: 'i_toolbar-grid';
+$i-toolbar-grid-x: 20px;
+$i-toolbar-grid-y: 30px;
+$i-toolbar-grid-offset-x: -20px;
+$i-toolbar-grid-offset-y: -30px;
+$i-toolbar-grid-width: 20px;
+$i-toolbar-grid-height: 20px;
+$i-toolbar-grid-total-width: 101px;
+$i-toolbar-grid-total-height: 76px;
+$i-toolbar-grid-image: '../images/spritesheet.png';
+$i-toolbar-grid: (20px, 30px, -20px, -30px, 20px, 20px, 101px, 76px, '../images/spritesheet.png', 'i_toolbar-grid', );
+$i-toolbar-list-selected-name: 'i_toolbar-list--selected';
+$i-toolbar-list-selected-x: 40px;
+$i-toolbar-list-selected-y: 30px;
+$i-toolbar-list-selected-offset-x: -40px;
+$i-toolbar-list-selected-offset-y: -30px;
+$i-toolbar-list-selected-width: 20px;
+$i-toolbar-list-selected-height: 20px;
+$i-toolbar-list-selected-total-width: 101px;
+$i-toolbar-list-selected-total-height: 76px;
+$i-toolbar-list-selected-image: '../images/spritesheet.png';
+$i-toolbar-list-selected: (40px, 30px, -40px, -30px, 20px, 20px, 101px, 76px, '../images/spritesheet.png', 'i_toolbar-list--selected', );
+$i-toolbar-list-name: 'i_toolbar-list';
+$i-toolbar-list-x: 60px;
+$i-toolbar-list-y: 30px;
+$i-toolbar-list-offset-x: -60px;
+$i-toolbar-list-offset-y: -30px;
+$i-toolbar-list-width: 20px;
+$i-toolbar-list-height: 20px;
+$i-toolbar-list-total-width: 101px;
+$i-toolbar-list-total-height: 76px;
+$i-toolbar-list-image: '../images/spritesheet.png';
+$i-toolbar-list: (60px, 30px, -60px, -30px, 20px, 20px, 101px, 76px, '../images/spritesheet.png', 'i_toolbar-list', );
+$spritesheet-width: 101px;
+$spritesheet-height: 76px;
+$spritesheet-image: '../images/spritesheet.png';
+$spritesheet-sprites: ($ating-view-bg, $ating-view-count, $i-arrow, $i-next-disabled, $i-next, $i-toolbar-grid-selected, $i-toolbar-grid, $i-toolbar-list-selected, $i-toolbar-list, );
+$spritesheet: (101px, 76px, '../images/spritesheet.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

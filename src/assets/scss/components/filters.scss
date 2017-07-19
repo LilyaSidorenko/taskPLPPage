@@ -1,0 +1,80 @@
+.filters-view {
+
+
+    &__result {
+        padding: 45px 0;
+        margin-bottom: 45px;
+        border-bottom: 1px solid $grey_regular;
+        @include clearfix;
+
+    }
+    &__title {
+        font-size: 18px;
+        font-family: $font-bold;
+        margin-top: 0;
+    }
+    &__selected-item {
+        position: relative;
+        font-size: 14px;
+        background-color: $grey_ultra;
+        padding: 13px;
+        margin-bottom: 10px;
+    }
+    &__remove {
+        @include sprite($i_arrow);
+        width: $i_arrow-width;
+        height: $i-arrow-height;
+        background-color: transparent;
+        border: 0;
+        position: absolute;
+        right: 13px;
+        top: 50%;
+        margin-top: -$i-arrow-height/2;
+    }
+    &__btn {
+        background: transparent;
+        font-family: $font-bold;
+        font-size: 14px;
+        border: 0;
+        float: right;
+    }
+    &__nav {
+        margin-bottom: 30px;
+        box-sizing: border-box;
+
+        &:first-child {
+            margin-top: 30px;
+        }
+    }
+    &__item {
+        font-size: 14px;
+        font-family: $font-bold;
+    }
+    &__link {
+        color: $grey_dark;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    &__amount {
+        padding-left: 5px;
+        font-family: $font-default;
+    }
+
+    @include media-breakpoint(tablet) {
+        &__nav {
+            width: 33.33333%;
+            float: left;
+            margin-top: 30px;
+            padding: 10px;
+        }
+
+    }
+    @include media-breakpoint(phone) {
+        &__nav {
+            width: 100%;
+            margin-top: 0;
+        }
+
+    }
+
+}

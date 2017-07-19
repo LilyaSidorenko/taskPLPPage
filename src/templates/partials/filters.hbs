@@ -1,0 +1,15 @@
+{{> filters-result }}
+<div class="filters-view">
+
+    {{#each site.facets}}
+        <div class="filters-view__nav">
+            <h4 class="filters-view__title">{{category}}</h4>
+            {{#each filters}}
+                <div class="filters-view__item">
+                    <a data-href="{{number}}" title="{{name}}" class="filters-view__link">{{name}}</a>
+                    <span class="filters-view__amount">({{results}})</span>
+                </div>
+            {{/each}}
+        </div>
+    {{/each}}
+</div>

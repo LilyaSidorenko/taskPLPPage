@@ -1,0 +1,42 @@
+.breadcrumbs {
+    padding-right: 10px;
+    margin: 12px 0;
+    font-size: 12px;
+
+    &__link {
+        padding-right: 5px;
+
+        color: $grey_dark;
+
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+        &--selected {
+            color: $grey_light;
+            pointer-events: none;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+        &:after {
+            content: '/';
+            padding-left: 5px;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+        &:last-child {
+            &:after {
+                content: none;
+            }
+        }
+    }
+
+
+
+
+}

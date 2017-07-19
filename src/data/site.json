@@ -1,0 +1,579 @@
+{
+  "facets": [
+    {
+      "category": "Attribute Category",
+      "filters": [
+        {
+          "name": "Attribute 1",
+          "number": 1,
+          "results": 123,
+          "url": "/filter/attribute/1"
+        },
+        {
+          "name": "Attribute 2",
+          "number": 2,
+          "results": 43,
+          "url": "/filter/attribute/2"
+        },
+        {
+          "name": "Attribute 3",
+          "number": 3,
+          "results": 12,
+          "url": "/filter/attribute/3"
+        },
+        {
+          "name": "Attribute 4",
+          "number": 4,
+          "results": 54,
+          "url": "/filter/attribute/4"
+        }
+      ]
+    },
+    {
+      "category": "Attribute Category",
+      "filters": [
+        {
+          "name": "Attribute 1",
+          "number": 1,
+          "results": 33,
+          "url": "/filter/attribute/1"
+        },
+        {
+          "name": "Attribute 2",
+          "number": 2,
+          "results": 23,
+          "url": "/filter/attribute/2"
+        },
+        {
+          "name": "Attribute 3",
+          "number": 3,
+          "results": 12,
+          "url": "/filter/attribute/3"
+        },
+        {
+          "name": "Attribute 4",
+          "number": 4,
+          "results": 3,
+          "url": "/filter/attribute/4"
+        }
+      ]
+    },
+    {
+      "category": "Attribute Category",
+      "filters": [
+        {
+          "name": "Attribute 1",
+          "number": 1,
+          "results": 43,
+          "url": "/filter/attribute/1"
+        },
+        {
+          "name": "Attribute 2",
+          "number": 2,
+          "results": 63,
+          "url": "/filter/attribute/2"
+        },
+        {
+          "name": "Attribute 3",
+          "number": 3,
+          "results": 12,
+          "url": "/filter/attribute/3"
+        },
+        {
+          "name": "Attribute 4",
+          "number": 4,
+          "results": 11,
+          "url": "/filter/attribute/4"
+        }
+      ]
+    }
+  ],
+  "activeFacets": [],
+  "topControls": {
+    "views": [
+      {
+        "name": "grid",
+        "url": "/view/grid"
+      },
+      {
+        "name": "list",
+        "url": "/view/list"
+      }
+    ],
+    "sorting": [
+      {
+        "name": "Position",
+        "url": "/sort/position"
+      },
+      {
+        "name": "Price Asc.",
+        "url": "/sort/price/asc"
+      },
+      {
+        "name": "Price Desc.",
+        "url": "/sort/price/desc"
+      }
+    ],
+    "productsShown": [
+      12,
+      18,
+      24,
+      46,
+      120
+    ]
+  },
+  "catalog": [
+    {
+      "name": "Product Title 016",
+      "attribute": 1,
+      "roundel": {
+        "name": "New",
+        "type": "red"
+      },
+      "id": "761",
+      "sku": "14WPN7BW",
+      "price": {
+        "regular": 75
+      },
+      "subtotal": 75,
+      "img": "http://placehold.it/500x500",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget eros eu felis aliquet elementum. Proin vel mauris tincidunt, condimentum nisi in, pretium sapien. Proin augue ligula, euismod eu elementum non, sagittis sed leo. Nunc interdum eros non tellus interdum laoreet.",
+      "qty": 100,
+      "ribbon": "New",
+      "rating": 5,
+      "colors": [
+        {
+          "name": "Purple",
+          "code": "#872e42"
+        },
+        {
+          "name": "Blue",
+          "code": "#16989c"
+        },
+        {
+          "name": "Green",
+          "code": "#66b99d"
+        },
+        {
+          "name": "Pink",
+          "code": "#fd6068"
+        },
+        {
+          "name": "Orange",
+          "code": "#e66e2b"
+        }
+      ]
+    },
+    {
+      "name": "Product Title 02",
+      "id": "762",
+      "sku": "14WPN7BR",
+      "attribute": 2,
+      "roundel": {
+        "name": "Sale",
+        "type": "black"
+      },
+      "price": {
+        "regular": 75,
+        "special": 49.99
+      },
+      "img": "http://placehold.it/500x500",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget eros eu felis aliquet elementum. Proin vel mauris tincidunt, condimentum nisi in, pretium sapien. Proin augue ligula, euismod eu elementum non, sagittis sed leo. Nunc interdum eros non tellus interdum laoreet.",
+      "qty": 100,
+      "ribbon": "Sale",
+      "rating": 4,
+      "colors": [
+        {
+          "name": "Purple",
+          "code": "#872e42"
+        },
+        {
+          "name": "Blue",
+          "code": "#16989c"
+        },
+        {
+          "name": "Green",
+          "code": "#66b99d"
+        },
+        {
+          "name": "Pink",
+          "code": "#fd6068"
+        },
+        {
+          "name": "Orange",
+          "code": "#e66e2b"
+        }
+      ]
+    },
+    {
+      "name": "Product Title 03",
+      "id": "775",
+      "sku": "13HCS7J",
+      "attribute": 3,
+      "price": {
+        "regular": 75,
+        "special": null
+      },
+      "img": "http://placehold.it/500x500",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget eros eu felis aliquet elementum. Proin vel mauris tincidunt, condimentum nisi in, pretium sapien. Proin augue ligula, euismod eu elementum non, sagittis sed leo. Nunc interdum eros non tellus interdum laoreet.",
+      "qty": 100,
+      "ribbon": "",
+      "rating": 4.3,
+      "colors": [
+        {
+          "name": "Purple",
+          "code": "#872e42"
+        },
+        {
+          "name": "Blue",
+          "code": "#16989c"
+        },
+        {
+          "name": "Green",
+          "code": "#66b99d"
+        },
+        {
+          "name": "Pink",
+          "code": "#fd6068"
+        },
+        {
+          "name": "Orange",
+          "code": "#e66e2b"
+        }
+      ]
+    },
+    {
+      "name": "Product Title 04",
+      "id": "776",
+      "sku": "13HCS7EL",
+      "attribute": 4,
+      "price": {
+        "regular": 80,
+        "special": null
+      },
+      "img": "http://placehold.it/500x500",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget eros eu felis aliquet elementum. Proin vel mauris tincidunt, condimentum nisi in, pretium sapien. Proin augue ligula, euismod eu elementum non, sagittis sed leo. Nunc interdum eros non tellus interdum laoreet.",
+      "qty": 100,
+      "ribbon": "",
+      "rating": 4,
+      "colors": [
+        {
+          "name": "Purple",
+          "code": "#872e42"
+        },
+        {
+          "name": "Blue",
+          "code": "#16989c"
+        },
+        {
+          "name": "Green",
+          "code": "#66b99d"
+        },
+        {
+          "name": "Pink",
+          "code": "#fd6068"
+        },
+        {
+          "name": "Orange",
+          "code": "#e66e2b"
+        }
+      ]
+    },
+    {
+      "name": "Product Title 05",
+      "id": "777",
+      "sku": "13HCS7CR",
+      "attribute": 1,
+      "price": {
+        "regular": 70,
+        "special": null
+      },
+      "img": "http://placehold.it/500x500",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget eros eu felis aliquet elementum. Proin vel mauris tincidunt, condimentum nisi in, pretium sapien. Proin augue ligula, euismod eu elementum non, sagittis sed leo. Nunc interdum eros non tellus interdum laoreet.",
+      "qty": 100,
+      "ribbon": "",
+      "rating": 4,
+      "colors": [
+        {
+          "name": "Purple",
+          "code": "#872e42"
+        },
+        {
+          "name": "Blue",
+          "code": "#16989c"
+        },
+        {
+          "name": "Green",
+          "code": "#66b99d"
+        },
+        {
+          "name": "Pink",
+          "code": "#fd6068"
+        },
+        {
+          "name": "Orange",
+          "code": "#e66e2b"
+        }
+      ]
+    },
+    {
+      "name": "Product Title 06",
+      "id": "778",
+      "sku": "13HCS7B",
+      "attribute": 1,
+      "price": {
+        "regular": 160,
+        "special": null
+      },
+      "img": "http://placehold.it/500x500",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget eros eu felis aliquet elementum. Proin vel mauris tincidunt, condimentum nisi in, pretium sapien. Proin augue ligula, euismod eu elementum non, sagittis sed leo. Nunc interdum eros non tellus interdum laoreet.",
+      "qty": 100,
+      "ribbon": "",
+      "rating": 3.5,
+      "colors": [
+        {
+          "name": "Purple",
+          "code": "#872e42"
+        },
+        {
+          "name": "Blue",
+          "code": "#16989c"
+        },
+        {
+          "name": "Green",
+          "code": "#66b99d"
+        },
+        {
+          "name": "Pink",
+          "code": "#fd6068"
+        },
+        {
+          "name": "Orange",
+          "code": "#e66e2b"
+        }
+      ]
+    },
+    {
+      "name": "Product Title 07",
+      "id": "801",
+      "sku": "14WPN7TC",
+      "attribute": 2,
+      "price": {
+        "regular": 75,
+        "special": null
+      },
+      "img": "http://placehold.it/500x500",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget eros eu felis aliquet elementum. Proin vel mauris tincidunt, condimentum nisi in, pretium sapien. Proin augue ligula, euismod eu elementum non, sagittis sed leo. Nunc interdum eros non tellus interdum laoreet.",
+      "qty": 100,
+      "ribbon": "",
+      "rating": 4,
+      "colors": [
+        {
+          "name": "Purple",
+          "code": "#872e42"
+        },
+        {
+          "name": "Blue",
+          "code": "#16989c"
+        },
+        {
+          "name": "Green",
+          "code": "#66b99d"
+        },
+        {
+          "name": "Pink",
+          "code": "#fd6068"
+        },
+        {
+          "name": "Orange",
+          "code": "#e66e2b"
+        }
+      ]
+    },
+    {
+      "name": "Product Title 08",
+      "id": "802",
+      "sku": "14WPN7RC",
+      "attribute": 3,
+      "price": {
+        "regular": 75,
+        "special": null
+      },
+      "img": "http://placehold.it/500x500",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget eros eu felis aliquet elementum. Proin vel mauris tincidunt, condimentum nisi in, pretium sapien. Proin augue ligula, euismod eu elementum non, sagittis sed leo. Nunc interdum eros non tellus interdum laoreet.",
+      "qty": 100,
+      "ribbon": "",
+      "rating": 3.5,
+      "colors": [
+        {
+          "name": "Purple",
+          "code": "#872e42"
+        },
+        {
+          "name": "Blue",
+          "code": "#16989c"
+        },
+        {
+          "name": "Green",
+          "code": "#66b99d"
+        },
+        {
+          "name": "Pink",
+          "code": "#fd6068"
+        },
+        {
+          "name": "Orange",
+          "code": "#e66e2b"
+        }
+      ]
+    },
+    {
+      "name": "Product Title 09",
+      "id": "806",
+      "sku": "14WPN7SV",
+      "attribute": 3,
+      "price": {
+        "regular": 75,
+        "special": null
+      },
+      "img": "http://placehold.it/500x500",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget eros eu felis aliquet elementum. Proin vel mauris tincidunt, condimentum nisi in, pretium sapien. Proin augue ligula, euismod eu elementum non, sagittis sed leo. Nunc interdum eros non tellus interdum laoreet.",
+      "qty": 100,
+      "ribbon": "",
+      "rating": 4,
+      "colors": [
+        {
+          "name": "Purple",
+          "code": "#872e42"
+        },
+        {
+          "name": "Blue",
+          "code": "#16989c"
+        },
+        {
+          "name": "Green",
+          "code": "#66b99d"
+        },
+        {
+          "name": "Pink",
+          "code": "#fd6068"
+        },
+        {
+          "name": "Orange",
+          "code": "#e66e2b"
+        }
+      ]
+    },
+    {
+      "name": "Product Title 10",
+      "id": "809",
+      "sku": "14WPN7PE",
+      "attribute": 1,
+      "price": {
+        "regular": 75,
+        "special": null
+      },
+      "img": "http://placehold.it/500x500",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget eros eu felis aliquet elementum. Proin vel mauris tincidunt, condimentum nisi in, pretium sapien. Proin augue ligula, euismod eu elementum non, sagittis sed leo. Nunc interdum eros non tellus interdum laoreet.",
+      "qty": 100,
+      "ribbon": "",
+      "rating": 4,
+      "colors": [
+        {
+          "name": "Purple",
+          "code": "#872e42"
+        },
+        {
+          "name": "Blue",
+          "code": "#16989c"
+        },
+        {
+          "name": "Green",
+          "code": "#66b99d"
+        },
+        {
+          "name": "Pink",
+          "code": "#fd6068"
+        },
+        {
+          "name": "Orange",
+          "code": "#e66e2b"
+        }
+      ]
+    },
+    {
+      "name": "Product Title 11",
+      "id": "837",
+      "sku": "14WPN7BJ",
+      "attribute": 2,
+      "price": {
+        "regular": 75,
+        "special": null
+      },
+      "img": "http://placehold.it/500x500",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget eros eu felis aliquet elementum. Proin vel mauris tincidunt, condimentum nisi in, pretium sapien. Proin augue ligula, euismod eu elementum non, sagittis sed leo. Nunc interdum eros non tellus interdum laoreet.",
+      "qty": 100,
+      "ribbon": "",
+      "rating": 4,
+      "colors": [
+        {
+          "name": "Purple",
+          "code": "#872e42"
+        },
+        {
+          "name": "Blue",
+          "code": "#16989c"
+        },
+        {
+          "name": "Green",
+          "code": "#66b99d"
+        },
+        {
+          "name": "Pink",
+          "code": "#fd6068"
+        },
+        {
+          "name": "Orange",
+          "code": "#e66e2b"
+        }
+      ]
+    },
+    {
+      "name": "Product Title 12",
+      "id": "806",
+      "sku": "14WPN7SV",
+      "attribute": 3,
+      "price": {
+        "regular": 75,
+        "special": null
+      },
+      "img": "http://placehold.it/500x500",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget eros eu felis aliquet elementum. Proin vel mauris tincidunt, condimentum nisi in, pretium sapien. Proin augue ligula, euismod eu elementum non, sagittis sed leo. Nunc interdum eros non tellus interdum laoreet.",
+      "qty": 100,
+      "ribbon": "",
+      "rating": 4,
+      "colors": [
+        {
+          "name": "Purple",
+          "code": "#872e42"
+        },
+        {
+          "name": "Blue",
+          "code": "#16989c"
+        },
+        {
+          "name": "Green",
+          "code": "#66b99d"
+        },
+        {
+          "name": "Pink",
+          "code": "#fd6068"
+        },
+        {
+          "name": "Orange",
+          "code": "#e66e2b"
+        }
+      ]
+    }
+  ]
+}

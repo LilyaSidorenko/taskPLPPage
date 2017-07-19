@@ -1,0 +1,39 @@
+.pager {
+    &__item {
+        list-style: none;
+        color: $grey_dark;
+        font-family: $font-default;
+        text-decoration: none;
+        display: inline-block;
+    }
+    &__link {
+        &--next {
+            @include sprite($i_next);
+            width: $i_next-width;
+            height: $i_next-height;
+            margin-left: 30px;
+            display: inline-block;
+            vertical-align: middle;
+
+            &.disabled {
+                @include sprite($i_next-disabled);
+
+            }
+        }
+        &--prev {
+            @include sprite($i_next);
+            width: $i_next-width;
+            height: $i_next-height;
+            transform: rotate(180deg);
+            margin-right: 30px;
+            display: inline-block;
+            vertical-align: middle;
+
+            &.disabled {
+                @include sprite($i_next-disabled);
+                transform: rotate(180deg);
+
+            }
+        }
+    }
+}

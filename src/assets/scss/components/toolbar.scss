@@ -1,0 +1,111 @@
+.toolbar {
+    font-size: 14px;
+    font-family: $font-bold;
+    padding-bottom: 23px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid $grey_regular;
+
+    &__title {
+        margin-right: 5px;
+    }
+    &__main {
+        display: inline-block;
+    }
+    &__sort-list {
+        display: inline-block;
+        cursor: pointer;
+        margin-right: 30px;
+        vertical-align: middle;
+
+        @include sprite($i_toolbar-list);
+        width: $i_toolbar-list-width;
+        height: $i_toolbar-list-height;
+
+        &.active {
+            @include sprite($i_toolbar-list-selected)
+        }
+    }
+    &__sort-grid {
+        display: inline-block;
+        cursor: pointer;
+        margin-right: 10px;
+        vertical-align: middle;
+
+        @include sprite($i_toolbar-grid);
+        width: $i_toolbar-grid-width;
+        height: $i_toolbar-grid-height;
+
+        &.active {
+            @include sprite($i_toolbar-grid-selected)
+        }
+    }
+    &__select {
+        display: inline-block;
+
+        select {
+            @include x-appearance(none);
+            padding: 9px 80px 9px 10px;
+            border: 1px solid $grey_dark;
+            border-radius: 4px;
+            background: transparent;
+            outline: none;
+        }
+
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+
+        &:before {
+            content: '';
+            width: 1px;
+            height: 38px;
+            background: $grey_dark;
+            position: absolute;
+            top: 0;
+            right: 38px;
+        }
+        &:after {
+            content: '';
+            display: inline-block;
+            border: 6px solid transparent;
+            border-top: 6px solid $grey_dark;
+            position: absolute;
+            right: 13px;
+            top: 50%;
+            margin-top: -3px;
+        }
+    }
+    &__limiter {
+        display: inline-block;
+        margin: 0 10px 0 28px;
+    }
+    &__amount {
+        display: inline-block;
+        font-family: $font-default;
+    }
+    &__extra {
+        float: right;
+    }
+
+
+    @include media-breakpoint(tablet) {
+
+        &__title, &__amount {
+            display: none;
+        }
+
+    }
+    @include media-breakpoint(phone) {
+        text-align: center;
+
+        &__extra {
+            float: none;
+            margin-top: 20px;
+        }
+        &__sort-list, &__sort-grid {
+            display: none;
+        }
+
+    }
+
+}

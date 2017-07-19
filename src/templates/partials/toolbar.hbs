@@ -1,0 +1,39 @@
+<div class="toolbar">
+    <div class="toolbar__main">
+        <a title="Сетка" class="toolbar__sort-grid js-sort active" data-sort="sort-grid"></a>
+        <a title="Список" class="toolbar__sort-list js-sort" data-sort="sort-list"></a>
+
+
+        <label for="sort" class="toolbar__title">Sort</label>
+
+        <div class="toolbar__select">
+            <select id="sort" class="price-sorting">
+                {{#each site.topControls.sorting}}
+                    <option value="{{name}}">{{name}}</option>
+                {{/each}}
+            </select>
+        </div>
+
+        <div class="toolbar__limiter">
+            <label for="showCount" class="toolbar__title">Show:</label>
+
+            <div class="toolbar__select">
+                <select id="showCount">
+                    {{#each site.topControls.productsShown}}
+                        <option value="{{this}}">{{this}}</option>
+                    {{/each}}
+
+                </select>
+            </div>
+        </div>
+        <div class="toolbar__amount">1-15 of 150</div>
+
+    </div>
+    <div class="toolbar__extra">
+        <ul class="pager">
+            <li class="pager__item"><a href="#" title="Prev" class="pager__link pager__link--prev disabled"></a></li>
+            <li class="pager__item">1 of 10</li>
+            <li class="pager__item"><a href="#" title="Next" class="pager__link pager__link--next"></a></li>
+        </ul>
+    </div>
+</div>

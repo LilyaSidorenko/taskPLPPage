@@ -1,0 +1,12 @@
+---
+component: scripts
+---
+
+<!-- Includes site-specific Javascript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="{{javascript}}/vendor/handlebars.min-latest.js"></script>
+<script src="{{javascript}}/main.js"></script>
+
+{{#each javascriptFiles}}
+	<script src="{{../javascript}}/{{this}}"></script>
+{{/each}}

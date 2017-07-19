@@ -1,0 +1,22 @@
+//Vendors
+@import "vendors/normalize";
+@import "sprites";
+
+//Partials
+@import "partials/variables";
+@import "partials/mixins";
+
+//Layout
+@import "layout/catalog-view";
+
+//Components
+@import 'components/breadcrumbs';
+@import 'components/filters';
+@import 'components/toolbar';
+@import 'components/pager';
+@import 'components/product';
+@import 'components/rating';
+@import 'components/roundel-attribute';
+
+//Pages
+@import "pages/base-properties";
